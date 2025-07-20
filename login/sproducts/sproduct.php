@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
+      <title> Khusi ke pal</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+	 integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+      <section id="header">
+         <a href="../Home.php"><img src="../images/wishcart.png" class="logo" alt=""></a>   
+
+            <div>
+                  <ul id="navbar">
+				     <li><a href="../Home.php">Home</a></li>
+                              <li><a class="active" href="../shop.php">Shop</a></li>
+                              <li><a href="../New.php">New</a></li>
+                              <li><a href="../Electronics.php">Electronics</a></li>
+                              <li id="lg-bag"><a href="../cart.php"><i class="fa-solid fa-cart-shopping"></i></a></li>
+					<li id="lg-bag"><a href="profile.php" class="profile-icon"><i class="fas fa-user"></i></a></li>
+					<a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+
+                  </ul>
+            </div>
+			
+			<div id="mobile">
+				<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+				<li id="lg-bag"><a href="profile.php" class="profile-icon"><i class="fas fa-user"></i></a></li>
+				<i id="bar" class="fas fa-outdent"></i>
+			</div>
+			
+      </section>
+	    
+	    <section id="prodetails" class="section-p1">
+		   <div class="single-pro-image">
+		       <img src="../images/look-mark2.jpg" width="100%" id="main-img"alt="">
+		       <div class="small-img-group">
+			        <div class="small-img-col">
+					    <img src="../images/look-mark2.jpg  " width="100%" class="small-img" alt="">
+				    </div>
+			        <div class="small-img-col">
+					    <img src="../images/sproduct 1.1.jpg  " width="100%"class="small-img" alt="">
+				    </div>
+					<div class="small-img-col">
+					    <img src="../images/sproduct1.2.jpg  " width="100%" class="small-img" alt="">
+				    </div>
+					
+			   </div>
+		   </div>
+		   <div class="single-pro-details">
+                <h1>Men's Cotton Printed Shirt</h1> <!-- Main page title -->
+                <h2>Product Details</h2> <!-- Section title -->
+                    <p>
+                        LookMark Men's Cotton Blend Printed Stitched
+                        Half Sleeves Regular Fit Shirt
+                    </p>
+                    <p><strong>Price:</strong> $45.00</p> <!-- Use <p> for price -->
+                    <h3>Available Sizes:</h3> <!-- Subsection -->
+                       <select>
+                            <option>SMALL</option>
+                            <option>MEDIUM</option>
+                            <option>LARGE</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>
+                    <p><strong>Quantity:</strong>
+                        <input type="number" value="1" min="1" max="10" step="1"></p>
+                        <button type="button" class="normal">Add To Cart</button>
+                        <button type="button" class="normal2">Buy Now</button>
+            
+
+				
+				
+				<div class="pro-details-col">
+				    <h3> Produtc Details </h3>
+					<p><strong>Product Composition :  </strong> Cotton Blend<br>
+					<strong>Pattern :</strong> Printed<br>
+					<strong>Fit Type : </strong> Regular Fit<br>
+					<strong>Sleeve Type :  </strong> Half Sleeve<br>
+					<strong>Collar Style :  </strong> classic<br>
+					<strong>Length : </strong> Standard Length<br>
+					<strong>Country Of Origin : </strong> India</p>
+				</div>
+				<div class="additional-info">
+	                <h3>About this item</h3>
+					    <p>&bull;Stylish Half sleeve Casual Printed Shirts & 
+						Party Wear Casual shirts</p>
+						<p>&bull;100% Premium Cotton Blend, Pre Washed for an extremely 
+						soft finish and Rich look</p>
+						<p>&bull;Disclaimer: Product colour may slightly vary due to 
+						photographic lighting sources or your monitor settings</p>
+						<p>&bull;Modern slim fit ( we have updated our size chart, please 
+						refer the size chart for new measurements before ordering)</p>
+						<p>&bull;Breathable : Truly comfortable and easy to wear in every 
+						season it is insulating in winter and breathable in summer.</p>
+				</div>   
+		    </div>
+		</section>
+		
+		<section id="prodes" class="section-p1">
+		    <div class="pro-description">
+				    <h3>Product Description</h3>
+				    <p>LookMark Men's Regular Fit Printed Shirt Try on something different with LookMark 
+				    collection of Printed shirts that will add a new spice to your wardrobe! The unique 
+				    color combinations, seamlessly stitched ends and perfect collar gives you a charming 
+				    look when worn for any occasions, even on a Printed day! (1).Comfortable Material 
+				    Printed Shirts for men by LookMark are made using quality fabrics that are durable 
+				    and comfortable for long term use and for any weather. They come in the latest designs
+                    along with unique color combinations. (2).Classy & Charming Look Upgrade your fashion 
+				    quotient with these shirts for men as they give you a new look and appeal. Made to 
+				    make you look good effortlessly, wear them on any day, in any mood, you will surely 
+				    feel good as you look! Upgrade your fashion quotient with these shirts for men as 
+				    they give you a new look and appeal. Made to make you look good effortlessly, wear 
+				    them on any day, in any mood, you will surely feel good as you look! (3).Easy Care 
+				
+				    Make these shirts look as good as new by washing with a mild detergent. Do not bleach 
+				    it or wash with other colours. You need not dry clean this as it can be easily washed 
+				    by hand.</p>
+			</div>
+		</section>
+			<section id="product" class="section-p2">
+				<div class="pro-container">
+		            <div class="pro" onclick="window.location.href='sproduct.html';">
+			            <img src="../images/look-mark2.jpg" alt="">
+				        <div class="des">
+				            <span>LOOKMARK</span>
+					        <h5>Men's cotton printed shirt</h5>
+					        <div class="star">
+					        <i class="fas fa-star"></i>
+					        <i class="fas fa-star"></i>
+		                    <i class="fas fa-star"></i>
+		                    <i class="fas fa-star"></i>
+					    </div>
+					       <h4>$45</h4>
+				        </div>
+				        <div class="cart">
+				            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+				        </div>
+                    </div>
+			
+			        <div class="pro">
+							<img src="../images/black-white.jpg" alt="">
+						<div class="des">
+							<span>HMKM</span>
+							<h5>Casual Regular fit shirt</h5>
+							<div class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<h4>$55</h4>
+				        </div>
+							<div class="cart">
+								<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+							</div>
+				    </div>
+			
+						<div class="pro">
+							<img src="../images/lookmark.jpg" alt="">
+							<div class="des">
+								<span>LOOKMARK</span>
+								<h5>Men's Printed Regular shirt</h5>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<h4>$20</h4>
+							</div>
+							<div class="cart">
+								<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+							</div>
+						</div>
+			
+						<div class="pro">
+							<img src="../images/red-suit.jpg" alt="">
+							<div class="des">
+								<span>POHSAX</span>
+								<h5>Red Suit with Golden Design</h5>
+								<div class="star">
+					
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+									<h4>$26</h4>
+							</div>
+								<div class="cart">
+									<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+								</div>
+						</div>
+				</div>
+			
+		    </section>
+	  
+		<section id="newletter"  class="section-p1 section-m1">
+		    <div class="newstext">
+			    <h4> Sign Up For Newsletter </h4>
+				<p> Get E-Mail Updates about our latest shop <span> Special offer </span> 
+				</p>
+		    </div>
+			<div class="form">
+			    <input type="text" placeholder="Your Email address"/>
+				<button> Sign Up</button>
+			</div>
+		</section>
+		
+		<footer class="section-p1">
+		    <div class="col">
+			    <img src="../images/wishcart.png" class="logo" alt="">
+				<h4> Contact </h4>
+				<p><strong>Address</strong> Amity University Kolkata<br> 
+				    Major Arterial Road, <br> 
+				    Action Area II, Rajarhat,<br> 
+                    New Town,Kolkata - 700135,<br> 
+                    West Bengal, India </p>
+				<p> <strong> Phone:</strong>+91 1234 567 890 /(+91) 01 2345 987</p>
+				<p> <strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>	
+				<div class="Follow">
+				    <h4> Follow Us</h4>
+					<div class="icon">
+					    <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>	
+                        <i class="fa-brands fa-square-instagram"></i>	
+						<i class="fa-brands fa-square-pinterest"></i>
+						<i class="fa-brands fa-youtube"></i>
+					</div>
+				</div>	
+			</div> 
+			
+			<div class="col">
+			    <h4> About</h4>
+				<a href="#"> About us</a>
+				<a href="#"> Delivery Inforamtion </a>
+				<a href="#"> Privacy Policy </a>
+				<a href="#">Terms & Conditions </a>
+				<a href="#">Contact Us</a>
+			</div>
+			
+			<div class="col">
+			    <h4> My Account</h4>
+				<a href="#"> Sign In</a>
+				<a href="#"> View Cart </a>
+				<a href="#"> My Wishlist </a>
+				<a href="#">Track My Order </a>
+				<a href="#">Help</a>
+			</div>
+			
+			
+		    <div class="col">
+			    <h4> Install App</h4>
+				<p>From App Store or Google play</p>
+				<div class="row">
+				    <img src="../images/play store 4.jpg" class="store" alt="">
+				</div> 	
+				<p> Secured Payment Gateways</p>
+				 <img src="../images/payment.jpg" class="payment" alt="">
+			</div>
+			
+			<div class="copywrite">
+			<p>@ 2024, Raman etc HTML /CSS E-commerce Website</p>
+			</div>
+		</footer>  
+		
+		
+		<script> 
+    var mainImg = document.getElementById("main-img"); 
+    var smallimg = document.getElementsByClassName("small-img"); 
+
+    
+    for (let i = 0; i < smallimg.length; i++) {
+        smallimg[i].onclick = function() {
+            mainImg.src = smallimg[i].src; 
+        }
+    }
+</script>
+
+		
+		<script src="script.js"></script>
+		
+		
+</body>
+</html>
